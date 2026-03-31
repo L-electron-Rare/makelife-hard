@@ -5,4 +5,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "TODO: specialize CI for this repo"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate repository baseline files
+        run: |
+          test -f README.md
+          test -f pyproject.toml
+          test -f .env.example
+      - name: Validate pyproject metadata
+        run: |
+          python - << 'PY'
+          import pathlib
+          import tomllib
+
+          data = tomllib.loads(pathlib.Path("pyproject.toml").read_text(encoding="utf-8"))
+          assert "project" in data, "Missing [project] section"
+          assert data["project"].get("name"), "Missing project.name"
+          assert data["project"].get("version"), "Missing project.version"
+          print("pyproject metadata OK")
+          PY
