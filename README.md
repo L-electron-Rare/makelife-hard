@@ -2,7 +2,7 @@
 
 Hardware design files, PCB exports, and MCP automation servers for electronic manufacturing.
 
-Part of the [FineFab](https://github.com/L-electron-Rare) platform (Factory 4 Life).
+Part of the [FineFab](https://github.com/L-electron-Rare) platform (FineFab).
 
 ## What it does
 
