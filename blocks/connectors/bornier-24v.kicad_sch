@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20231120)
+	(generator "makelife")
+	(generator_version "1.0")
+	(uuid "aff67871-c972-41b8-a1cd-49a68c392055")
+	(paper "A4")
+	(lib_symbols)
+	(text "MakeLife Design Block: 24V Screw Terminal (Bornier)"
+		(at 76.2 25.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "4d79a303-57dd-479a-9955-673511b7595b")
+	)
+	(text "Screw terminal (bornier) for 24V power. Fuse holder (5A). Wire gauge: min 1.5mm2. From BMU v2."
+		(at 76.2 38.1 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "a84f6209-3773-4b98-a037-0205c8631ad6")
+	)
+	(hierarchical_label "VIN"
+		(shape passive)
+		(at 25.4 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3609c1fa-4a97-4a78-a78c-1a5c25ca0ae0")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 25.4 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "39eed99f-1274-42a4-a8c4-8fae74106d27")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

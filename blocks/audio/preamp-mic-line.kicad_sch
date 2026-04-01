@@ -1,0 +1,101 @@
+(kicad_sch
+	(version 20231120)
+	(generator "makelife")
+	(generator_version "1.0")
+	(uuid "30c9a54b-2c74-4b4d-907b-6da0dbb964a9")
+	(paper "A4")
+	(lib_symbols)
+	(text "MakeLife Design Block: Differential Preamp Mic/Line"
+		(at 76.2 25.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "1e7b1354-1de4-48d6-a62f-5894493370dd")
+	)
+	(text "Differential preamp for mic/line. Op-amp based (NE5532/OPA2134). Gain pot 10k log. From Super Mixer MIC_LINE_input."
+		(at 76.2 38.1 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "6610cf44-3d95-475b-91d5-6e4e810a6779")
+	)
+	(hierarchical_label "INPUT_P"
+		(shape input)
+		(at 25.4 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cfef4a3e-0740-4710-b1fd-205032c5db55")
+	)
+	(hierarchical_label "INPUT_N"
+		(shape input)
+		(at 25.4 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1179df3b-df38-489d-a16f-ea46b6f51a0f")
+	)
+	(hierarchical_label "OUTPUT_P"
+		(shape output)
+		(at 152.4 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a3e5e6df-8642-490b-bb2a-f812ff9ec8f4")
+	)
+	(hierarchical_label "OUTPUT_N"
+		(shape output)
+		(at 152.4 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c63621a-6cf9-4018-92f8-58b1be1de774")
+	)
+	(hierarchical_label "V_POS"
+		(shape input)
+		(at 25.4 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d05dc092-a4ed-43d3-b585-027fc930afa0")
+	)
+	(hierarchical_label "V_NEG"
+		(shape input)
+		(at 25.4 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2fe9e6f-3727-4e7a-9c2a-06a323dc2c43")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 25.4 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "798f9ee0-79c9-41a6-822c-5a02aa78a0c1")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

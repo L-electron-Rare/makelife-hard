@@ -1,0 +1,101 @@
+(kicad_sch
+	(version 20231120)
+	(generator "makelife")
+	(generator_version "1.0")
+	(uuid "441e1413-517a-447d-88d0-2400f3f8081b")
+	(paper "A4")
+	(lib_symbols)
+	(text "MakeLife Design Block: Bidirectional Level Shifter"
+		(at 76.2 25.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "361b54f3-d8c6-41f7-86c3-3298261b72ca")
+	)
+	(text "Bidirectional level shifter 3.3V<->5V. MOSFET-based (BSS138) or TXS0108E. From DMX Stepper."
+		(at 76.2 38.1 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "8e81b235-d967-4da9-812a-b35e4e3e34c8")
+	)
+	(hierarchical_label "A1"
+		(shape bidirectional)
+		(at 25.4 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d70cdbf4-2495-4ad4-afc7-b4820dcf56ed")
+	)
+	(hierarchical_label "A2"
+		(shape bidirectional)
+		(at 25.4 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "47bf310d-5952-420f-9b7e-5ee98c60cc3f")
+	)
+	(hierarchical_label "B1"
+		(shape bidirectional)
+		(at 152.4 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df6656d7-514c-4f49-8341-5b6b639133b5")
+	)
+	(hierarchical_label "B2"
+		(shape bidirectional)
+		(at 152.4 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3924d3a-4390-4951-b0ca-49d36422b1dd")
+	)
+	(hierarchical_label "VDD_A"
+		(shape input)
+		(at 25.4 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8293b462-2eee-4b52-9644-061f05014e2e")
+	)
+	(hierarchical_label "VDD_B"
+		(shape input)
+		(at 152.4 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "74147850-410c-4c1e-9c2e-fefbf8f257fe")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 25.4 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "956e2dc0-8a32-471c-821e-22a6c6101ccf")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

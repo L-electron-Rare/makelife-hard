@@ -1,0 +1,111 @@
+(kicad_sch
+	(version 20231120)
+	(generator "makelife")
+	(generator_version "1.0")
+	(uuid "01add35e-49b2-456a-b1c7-73f43a488897")
+	(paper "A4")
+	(lib_symbols)
+	(text "MakeLife Design Block: ESP32-WROOM-32 Module"
+		(at 76.2 25.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "daa6b646-308a-4866-afd0-1fb3a4c736ba")
+	)
+	(text "ESP32-WROOM-32 module. Auto-reset circuit (DTR/RTS). Decoupling: 10uF + 100nF."
+		(at 76.2 38.1 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "28f43088-2084-4fe4-8b5f-482fbf0b1d1b")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 25.4 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "49ce115f-d3dc-48b8-855d-97a3315ebef3")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 25.4 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "caa6a248-d14c-4491-b685-24c20850738e")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 152.4 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c19ea44-2f27-4162-9e77-6cc6f132d96d")
+	)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 152.4 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c869bd57-9468-4b2f-a330-6bfe6db76c60")
+	)
+	(hierarchical_label "TX"
+		(shape output)
+		(at 152.4 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "367e0d92-6c22-4c76-a340-5b4e51b8eb19")
+	)
+	(hierarchical_label "RX"
+		(shape input)
+		(at 152.4 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e0a4b76-5aa9-4beb-a715-a5177f94f3bb")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 25.4 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a102d74a-b92a-4b9e-b4c1-339997cdd10c")
+	)
+	(hierarchical_label "IO0"
+		(shape bidirectional)
+		(at 152.4 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e961ff1-f7ff-440d-8c62-59a4a95da4e9")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

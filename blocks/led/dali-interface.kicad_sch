@@ -1,0 +1,91 @@
+(kicad_sch
+	(version 20231120)
+	(generator "makelife")
+	(generator_version "1.0")
+	(uuid "0cf1f83b-b000-4a7b-a3e6-68f8b1747245")
+	(paper "A4")
+	(lib_symbols)
+	(text "MakeLife Design Block: DALI Bus Interface"
+		(at 76.2 25.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "e504ae09-035c-4b41-87a8-03cf8dda1f28")
+	)
+	(text "DALI bus transceiver with galvanic isolation (optocoupler). From HypnoLED DALI.kicad_sch."
+		(at 76.2 38.1 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "3c616f83-a8d3-48e7-abb2-c5bbb95949ac")
+	)
+	(hierarchical_label "DALI_P"
+		(shape bidirectional)
+		(at 25.4 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c87e65a-8a69-44ac-93c4-933a6a1af1b1")
+	)
+	(hierarchical_label "DALI_N"
+		(shape bidirectional)
+		(at 25.4 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "99e99676-5466-4c39-bee2-c5ffc1499dd0")
+	)
+	(hierarchical_label "TX"
+		(shape input)
+		(at 152.4 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e4ca3860-0cc9-40b2-adb9-d7d1ef8f1622")
+	)
+	(hierarchical_label "RX"
+		(shape output)
+		(at 152.4 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ee44354-6537-4ad8-b22b-43eacd333ff2")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 25.4 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "94369b32-13dd-4e95-894f-d6b762807106")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 25.4 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "00dc039d-64f8-4649-a882-99d7674925da")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

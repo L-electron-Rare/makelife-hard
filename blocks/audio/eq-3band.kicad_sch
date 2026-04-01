@@ -1,0 +1,101 @@
+(kicad_sch
+	(version 20231120)
+	(generator "makelife")
+	(generator_version "1.0")
+	(uuid "c00ea577-48b0-403b-8504-ad59cabc1d6b")
+	(paper "A4")
+	(lib_symbols)
+	(text "MakeLife Design Block: 3-Band Active EQ"
+		(at 76.2 25.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "85167781-1ef8-4ac4-8f30-91c69a8ed193")
+	)
+	(text "3-band active EQ (bass/mid/treble). Op-amp RC networks. 10k linear pots. From Super Mixer eq.kicad_sch."
+		(at 76.2 38.1 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "03dc4cf1-d82a-41ec-9724-0288ea410908")
+	)
+	(hierarchical_label "IN_P"
+		(shape input)
+		(at 25.4 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5dc367db-48ee-4b1b-b551-e69d786ea8c1")
+	)
+	(hierarchical_label "IN_N"
+		(shape input)
+		(at 25.4 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "65918c36-4cf0-4c07-b4ea-6dd5a14d2bb1")
+	)
+	(hierarchical_label "OUT_P"
+		(shape output)
+		(at 152.4 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f3249c83-a889-4e3b-941a-acc67710af73")
+	)
+	(hierarchical_label "OUT_N"
+		(shape output)
+		(at 152.4 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8494c463-dec4-4bf6-9c7c-36a3805ed144")
+	)
+	(hierarchical_label "V_POS"
+		(shape input)
+		(at 25.4 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe3ad887-9867-4bde-b068-03c8fb3e7e45")
+	)
+	(hierarchical_label "V_NEG"
+		(shape input)
+		(at 25.4 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "24a4701e-827e-4fdf-9733-dad567b59afb")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 25.4 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5267e9c-3154-4dd6-ab19-7014872b9c18")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

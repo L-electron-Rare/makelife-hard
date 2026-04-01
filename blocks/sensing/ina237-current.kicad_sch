@@ -1,0 +1,101 @@
+(kicad_sch
+	(version 20231120)
+	(generator "makelife")
+	(generator_version "1.0")
+	(uuid "e9f6e4be-1771-4287-bf3d-a5c0f53ad4f3")
+	(paper "A4")
+	(lib_symbols)
+	(text "MakeLife Design Block: INA237 Current/Voltage Sensor"
+		(at 76.2 25.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "9a317350-0c6e-4ce9-8be9-668143155d56")
+	)
+	(text "INA237 current/voltage sensor (TSSOP-10). Shunt resistor 10mR 1%. I2C addr via A0/A1. Decoupling 100nF. From BMU v2."
+		(at 76.2 38.1 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "f860bc4b-0bc6-42ac-97bd-743f4e752354")
+	)
+	(hierarchical_label "SENSE_IN"
+		(shape passive)
+		(at 25.4 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e14f934a-1e6a-4e99-a10c-396bbb4790df")
+	)
+	(hierarchical_label "SENSE_OUT"
+		(shape passive)
+		(at 25.4 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1ca8f160-abb6-4cf2-9dca-3c17a66199cc")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 152.4 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d364eb1a-75c0-4a2c-83a3-84946c1cb3d8")
+	)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 152.4 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e9fd440b-e18f-4123-9f82-e43eaf5e4903")
+	)
+	(hierarchical_label "ALERT"
+		(shape output)
+		(at 152.4 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b203b370-78d7-4b5c-ba46-db92d85880b5")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 25.4 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b4a0cab1-1ee2-4db1-8818-8417c8db9ea4")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 25.4 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c3cc8d8-75f3-43d4-8a4f-73c5e178e2bd")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

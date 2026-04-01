@@ -1,0 +1,111 @@
+(kicad_sch
+	(version 20231120)
+	(generator "makelife")
+	(generator_version "1.0")
+	(uuid "8966f7ef-7375-441d-b690-689461956c62")
+	(paper "A4")
+	(lib_symbols)
+	(text "MakeLife Design Block: ESP32-S3 Minimal Module"
+		(at 76.2 25.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "6f62997a-dcd1-4d39-a81d-57370a66c99a")
+	)
+	(text "ESP32-S3-WROOM-1 module. USB-C connector. Boot/Reset buttons. 16MB flash, 8MB PSRAM. Decoupling: 10uF + 100nF on 3V3."
+		(at 76.2 38.1 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "0eb99e97-3903-4c6c-a7d0-7f1f0f100f70")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 25.4 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0eece714-3ac2-4de8-88aa-2c0c43030b11")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 25.4 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0a45097b-15e1-4016-aee0-b3afd56f6d38")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 152.4 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df866a5f-09dc-453c-9ca2-e233736b18bf")
+	)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 152.4 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4303fde-dcf5-4787-8253-8e7a3dc25583")
+	)
+	(hierarchical_label "TX"
+		(shape output)
+		(at 152.4 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "93725d42-7927-47b5-a12f-b90468833544")
+	)
+	(hierarchical_label "RX"
+		(shape input)
+		(at 152.4 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "94be178d-199c-4adb-9f09-39e9af478347")
+	)
+	(hierarchical_label "USB_DP"
+		(shape bidirectional)
+		(at 152.4 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5392c8e-29ba-4241-863f-30ce4d49591f")
+	)
+	(hierarchical_label "USB_DN"
+		(shape bidirectional)
+		(at 152.4 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ddfec0d1-9574-44c4-a176-f147865cd725")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

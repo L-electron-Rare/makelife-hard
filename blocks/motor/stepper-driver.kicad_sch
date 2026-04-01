@@ -1,0 +1,81 @@
+(kicad_sch
+	(version 20231120)
+	(generator "makelife")
+	(generator_version "1.0")
+	(uuid "b9d1320c-1aaf-4b6c-a33c-c8d8dbbb68ca")
+	(paper "A4")
+	(lib_symbols)
+	(text "MakeLife Design Block: CL86T Stepper Driver Interface"
+		(at 76.2 25.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "85e07b3d-e717-437f-8101-b44b03098e66")
+	)
+	(text "CL86T stepper driver interface. Optocoupler isolation on STEP/DIR/ENABLE. Pull-up/down resistors. From Orpheo."
+		(at 76.2 38.1 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "d3c03a47-57f6-4794-8a3a-211c0f250a09")
+	)
+	(hierarchical_label "STEP"
+		(shape input)
+		(at 25.4 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03338da7-179f-4b5d-9807-aefe45606915")
+	)
+	(hierarchical_label "DIR"
+		(shape input)
+		(at 25.4 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7c3173ab-7a5e-4aa6-a756-c3aaf08023c5")
+	)
+	(hierarchical_label "ENABLE"
+		(shape input)
+		(at 25.4 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d736f306-a170-4933-a23c-9047029ab349")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 25.4 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a5d12a8-0ac4-46d8-b302-7abd9b51f1db")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 25.4 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c9f9c7c-698b-444f-8906-5078029168b2")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

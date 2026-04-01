@@ -1,0 +1,71 @@
+(kicad_sch
+	(version 20231120)
+	(generator "makelife")
+	(generator_version "1.0")
+	(uuid "a9da07f8-7baf-40d5-b4b2-cbf18001733f")
+	(paper "A4")
+	(lib_symbols)
+	(text "MakeLife Design Block: I2C Bus with Pull-ups"
+		(at 76.2 25.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "026cc747-b90d-46c3-9bab-0952d7c2a18f")
+	)
+	(text "I2C bus with 4.7k pull-ups. For 400kHz operation. Max bus capacitance 400pF. Test points on SDA/SCL."
+		(at 76.2 38.1 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "f4277b6d-2d7e-49a5-bd9f-885362f72b71")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 25.4 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "97e4ea1b-125b-4b5e-b739-ed5453523d93")
+	)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 25.4 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b0e91662-dfdf-4360-98cf-85c9e3374129")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 25.4 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5da995b4-7a89-4bb2-baed-b58aa634679e")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 25.4 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "01d0074e-c6c6-4669-a2ae-3171044e7912")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

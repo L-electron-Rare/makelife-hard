@@ -1,0 +1,141 @@
+(kicad_sch
+	(version 20231120)
+	(generator "makelife")
+	(generator_version "1.0")
+	(uuid "39e072b6-56c0-4308-b927-7bbecd6a3614")
+	(paper "A4")
+	(lib_symbols)
+	(text "MakeLife Design Block: I2S Audio Codec"
+		(at 76.2 25.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "c3279cc1-9ac5-4dc7-a4a4-19611fd5eb04")
+	)
+	(text "I2S audio codec (ES8388 or WM8960). MCLK from MCU. I2C control. Headphone output with coupling caps."
+		(at 76.2 38.1 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "9e553b04-2d77-4739-93fc-1c2656921014")
+	)
+	(hierarchical_label "MCLK"
+		(shape input)
+		(at 25.4 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "90f29868-7b35-4216-a6d2-aac514cfa1a7")
+	)
+	(hierarchical_label "BCLK"
+		(shape bidirectional)
+		(at 25.4 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bbda3556-81fa-4977-89f0-021283881347")
+	)
+	(hierarchical_label "LRCLK"
+		(shape bidirectional)
+		(at 25.4 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e4259ade-4ae6-4444-8ca6-638ab2311b2b")
+	)
+	(hierarchical_label "DIN"
+		(shape input)
+		(at 25.4 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20cc6c8e-cade-4daa-a4ec-65f682efff2a")
+	)
+	(hierarchical_label "DOUT"
+		(shape output)
+		(at 152.4 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1db4413d-497b-4b53-86f8-c2df951c8341")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 25.4 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4205e8bf-64e1-4fb6-a86d-c0456851ed93")
+	)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 25.4 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a0bb2f3-2667-4f6f-b7aa-de6f0b62b4d3")
+	)
+	(hierarchical_label "HP_L"
+		(shape output)
+		(at 152.4 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fad8b5dd-372a-4cdf-95a0-9c0c1e563864")
+	)
+	(hierarchical_label "HP_R"
+		(shape output)
+		(at 152.4 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4356a0c9-cba5-46ca-aeec-bea532f46a1f")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 25.4 127.0 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5e6240d-7626-4169-a3c1-5f4d5f3ecd91")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 25.4 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca9715f7-9a57-4b44-8f8a-ccadf64568d8")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
