@@ -1,9 +1,0 @@
-{
-  "meta": {
-    "filename": "led-controller.kicad_pro",
-    "version": 1
-  },
-  "sheets": [
-    ["led-controller.kicad_sch", ""]
-  ]
-}
