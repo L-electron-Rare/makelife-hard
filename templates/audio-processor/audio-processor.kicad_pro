@@ -1,9 +1,0 @@
-{
-  "meta": {
-    "filename": "audio-processor.kicad_pro",
-    "version": 1
-  },
-  "sheets": [
-    ["audio-processor.kicad_sch", ""]
-  ]
-}
